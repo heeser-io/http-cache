@@ -10,7 +10,7 @@ The memory adapter minimizes GC overhead to near zero and supports some options 
 ## Getting Started
 
 ### Installation
-`go get github.com/victorspringer/http-cache`
+`go get github.com/heeser-io/http-cache`
 
 ### Usage
 This is an example of use with the memory adapter:
@@ -24,8 +24,8 @@ import (
     "os"
     "time"
     
-    "github.com/victorspringer/http-cache"
-    "github.com/victorspringer/http-cache/adapter/memory"
+    "github.com/heeser-io/http-cache"
+    "github.com/heeser-io/http-cache/adapter/memory"
 )
 
 func example(w http.ResponseWriter, r *http.Request) {
@@ -62,8 +62,8 @@ func main() {
 Example of Client initialization with Redis adapter:
 ```go
 import (
-    "github.com/victorspringer/http-cache"
-    "github.com/victorspringer/http-cache/adapter/redis"
+    "github.com/heeser-io/http-cache"
+    "github.com/heeser-io/http-cache/adapter/redis"
 )
 
 ...
